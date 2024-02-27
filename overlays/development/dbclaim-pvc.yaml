@@ -3,7 +3,7 @@ apiVersion: v1
 metadata:
   name: mysql-pv-claim
 spec:
-  accessmodes:
+  accessModes:
     - ReadWriteOnce
   resources:
     requests:
